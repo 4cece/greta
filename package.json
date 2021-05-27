@@ -1,0 +1,16 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -C scss/main.scss:assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1"
+  }
+}

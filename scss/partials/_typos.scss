@@ -1,0 +1,34 @@
+@mixin navItem{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+}
+
+@mixin H{
+  font-family: 'Khula', sans-serif;
+}
+
+@mixin span{
+  font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+  .navbar-brand{
+  font-size: 27px;
+  }
+  .nav-item{
+    @include navItem;
+  }
+  button{
+    @include navItem;
+  }
+}
+
+h1{
+  @include H;
+}
+#stitre {
+  @include span;
+  font-size: 20px;
+}
+.bulle p {
+  font-size: 14px;
+}

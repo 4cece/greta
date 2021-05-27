@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>  
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg row">
+                <div class="container-fluid">
+                    <a id="brand" class="navbar-brand" href="#">MaxImmo<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8281 6.63068C21.069 5.65716 19.8867 4.97454 19.164 5.66991L15.6602 9.04144L10.8475 6.26281C10.2711 5.93006 9.53663 6.24261 9.37678 6.88865L6.02816 20.4219C5.78728 21.3954 6.96962 22.078 7.69227 21.3827L11.1961 18.0111L16.0088 20.7898C16.5851 21.1225 17.3197 20.81 17.4795 20.1639L20.8281 6.63068ZM11.1961 18.0111L17.7381 11.7161C18.2177 11.2546 18.1211 10.4622 17.5447 10.1295L15.6602 9.04144L9.11819 15.3365C8.63863 15.798 8.73521 16.5904 9.31156 16.9231L11.1961 18.0111Z" fill="#282F65"/>
+                        </svg>                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactez-moi</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                        <button class="btn btn-outline-warning" type="submit">Se faire rappeller</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container">
+            <img class="photoSection" src="./assets/image/photo.png" alt="fond">
+            <div class="row">
+                <div class="col-6">
+                    <h1>Trouver le bien <br><span>qui vous correspond</span> </h1>
+                    <p id="stitre">A vos côtés depuis 2012, je vous accompagne dans <br> vos projets immobiliers.</p>
+                </div>
+                <div class="col-6">
+                    
+                    </div>
+            <form action="#">
+                <input type="text" placeholder="Rechercher un mot clé">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected><i class="bi bi-house-door"></i>Type de bien</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <label for="localisation"><i class="bi bi-geo-alt"></i>Localisation recherchée</label>
+                <input type="text" id="localisation">
+                <button class="btn bnt-warning" type="submit">Trouver un bien</button>
+            </form>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+   <script src="./node_modules/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@import "./partials/colors";
+@import "./partials/typos";
+@import "./partials/img";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./partials/space";
+
+
+.navbar-brand{
+    font-family: 'Lato', sans-serif; }
+
+.nav-link, button{
+    font-family: 'Nunito Sans', sans-serif;
+}
