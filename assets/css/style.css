@@ -26,18 +26,15 @@ nav button {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px; }
 
-h1, .h1 {
-  font-family: 'Khula', sans-serif; }
-
-#stitre {
+.row h1, .row .h1 {
+  font-family: 'Khula', sans-serif;
+  font-size: 56px; }
+.row p {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 20px; }
 
-.bulle p {
-  font-size: 14px; }
-
 .photoSection {
-  width: 100;
+  width: 100%;
   height: 497px; }
 
 /*!
@@ -8394,18 +8391,15 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important; } }
-#stitre {
+#titre {
   position: absolute;
-  width: 465px;
-  height: 68px;
-  left: 138px;
-  top: 400px; }
+  top: 34%;
+  left: 7%; }
 
-h1, .h1 {
-  font-size: 56px !important;
+#bulle {
   position: absolute;
-  left: 145px;
-  top: 226px; }
+  top: 21%;
+  right: 10%; }
 
 .navbar-brand {
   font-family: 'Lato', sans-serif; }

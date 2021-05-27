@@ -22,13 +22,14 @@ nav{
   }
 }
 
-h1{
-  @include H;
-}
-#stitre {
-  @include span;
-  font-size: 20px;
-}
-.bulle p {
-  font-size: 14px;
+.row{
+
+  h1{
+    @include H;
+    font-size: 56px;
+  }
+  p{
+    @include span;
+    font-size: 20px;
+  }
 }
