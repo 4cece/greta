@@ -1,6 +1,6 @@
-h1, .h1 {
+#tphoto {
   color: #282F65; }
-  h1 span, .h1 span {
+  #tphoto span {
     color: #fff; }
 
 p#stitre {
@@ -17,6 +17,24 @@ p#stitre {
   #rating i {
     color: F4BF00; }
 
+label {
+  color: #AEAEAE !important; }
+
+svg {
+  color: #282F65 !important; }
+
+select, input {
+  background-color: #ebebeb !important; }
+
+#story {
+  color: #79dcf2; }
+
+#service {
+  background-color: #ededed; }
+
+.card {
+  background-color: wh; }
+
 nav .navbar-brand {
   font-size: 27px; }
 nav .nav-item {
@@ -26,16 +44,40 @@ nav button {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px; }
 
-.row h1, .row .h1 {
+.row #tphoto {
   font-family: 'Khula', sans-serif;
   font-size: 56px; }
 .row p {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 20px; }
 
+label {
+  font-size: 18px; }
+
+.titreh1 {
+  font-family: 'Khula', sans-serif;
+  font-size: 36px;
+  color: black; }
+
+#des, #story {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px; }
+
+.qual p {
+  font-size: 14px;
+  color: #aeaeae; }
+  .qual p span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #282F65; }
+
 .photoSection {
   width: 100%;
   height: 497px; }
+
+.icon {
+  width: 44px;
+  height: 44px; }
 
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
@@ -3083,7 +3125,7 @@ textarea.form-control-lg {
       border-color: transparent; }
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
+    color: #AEAEAE;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff; }
   .nav-tabs .dropdown-menu {
@@ -3805,11 +3847,11 @@ textarea.form-control-lg {
 
 .list-group-item-action {
   width: 100%;
-  color: #495057;
+  color: #AEAEAE;
   text-align: inherit; }
   .list-group-item-action:hover, .list-group-item-action:focus {
     z-index: 1;
-    color: #495057;
+    color: #AEAEAE;
     text-decoration: none;
     background-color: #fff; }
   .list-group-item-action:active {
@@ -8393,13 +8435,45 @@ textarea.form-control-lg {
     display: none !important; } }
 #titre {
   position: absolute;
-  top: 34%;
+  top: 20%;
   left: 7%; }
 
 #bulle {
   position: absolute;
-  top: 21%;
+  top: 9%;
   right: 10%; }
+
+select, input {
+  width: 200px !important; }
+
+#box {
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08); }
+
+#title {
+  width: 350px;
+  position: relative; }
+
+#bbleu {
+  background-color: #79cdf2;
+  width: 220px;
+  height: 20px;
+  left: 71px;
+  top: 13px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 4px; }
+
+#para {
+  position: relative; }
+
+#line {
+  position: absolute;
+  top: 10px;
+  left: 81px;
+  width: 80px; }
+
+.card {
+  width: 25%; }
 
 .navbar-brand {
   font-family: 'Lato', sans-serif; }

@@ -12,8 +12,8 @@ $cyan:    #0dcaf0 !default;
 $white:   #fff;
 
 $gray-100 : $white;
-
-h1{
+$gray-700 : #AEAEAE;
+#tphoto{
     color: $blue;
 
     span{
@@ -38,4 +38,21 @@ p#stitre{
     i{
         color: F4BF00;
     }
+}
+label{
+    color: $gray-700 !important;
+}
+svg{
+    color: $blue !important;
+}
+select, input{
+    background-color: #ebebeb !important;}
+#story{
+    color: #79dcf2;
+}
+#service{
+    background-color: #ededed;
+}
+.card{
+    background-color: white;
 }

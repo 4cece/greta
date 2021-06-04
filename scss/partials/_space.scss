@@ -1,12 +1,51 @@
 
 #titre {
     position: absolute;
-    top: 34%;
+    top: 20%;
     left: 7%;
 }
 
 #bulle{
     position: absolute;
-    top: 21%;
+    top: 9%;
     right: 10%;
 }
+select, input{
+    width: 200px !important;
+}
+
+#box{
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);}
+
+#title{
+    width: 350px;
+    position: relative;
+}
+#bbleu{
+    background-color: #79cdf2 ;
+    width: 220px;
+    height: 20px;
+    left: 71px;
+    top: 13px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+#para{
+    position: relative;
+}
+#line{
+    position: absolute;
+    top: 10px; ;
+    left: 81px ;
+    width: 80px;
+}
+ .card{
+     width: 25%;
+ }
+   
+    
+
+    
+

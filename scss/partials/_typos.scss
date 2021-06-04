@@ -24,12 +24,35 @@ nav{
 
 .row{
 
-  h1{
+  #tphoto{
     @include H;
     font-size: 56px;
   }
   p{
     @include span;
     font-size: 20px;
+  }
+}
+label{
+font-size: 18px;}
+
+.titreh1{
+  @include H;
+  font-size: 36px;
+  color: black;
+}
+#des, #story{
+  @include navItem;
+}
+
+
+.qual{
+  p{
+    font-size: 14px;
+    color: #aeaeae;
+      span{
+         @include navItem;
+         color: $blue; 
+      }
   }
 }

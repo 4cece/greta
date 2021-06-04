@@ -11,11 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./node_modules/bootstrap/js/bootstrap.bundle.js"></script>
     <title>Document</title>
 </head>
+
 <body>  
     <div class="container">
         <header>
+            <!--Navbar-->
             <nav class="navbar navbar-expand-lg row justify-content-center">
                 <div class="container-fluid col-12">
                     <a id="brand" class="navbar-brand" href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,48 +45,100 @@
                     </div>
                 </div>
             </nav>
+            <!--Photo du header-->
         </header>
         <section class="container px-0">
-            <img class="photoSection" src="./assets/image/photo.png" alt="fond">
+            <img class="photoSection rounded" src="./assets/image/photo.png" alt="fond">
             <div class="row">
                 <div class="col-6" id="titre">
-                    <h1>Trouver le bien <br><span>qui vous correspond</span> </h1>
+                    <h1 id="tphoto">Trouver le bien <br><span>qui vous correspond</span> </h1>
                     <p id="stitre">A vos côtés depuis 2012, je vous accompagne dans <br> vos projets immobiliers.</p>
                 </div>
                 <div class="col-6">
                     <img src="./assets/image/Bulle.png"  id="bulle" alt="conversation">
                 </div>
             </div>
-            <form action="#">
-                <div  class="d-flex justify-content-around">
-                    <div >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <!--Formulaire-->
+            <form action="#" class="p-2 rounded" id="box" >
+                <div  class="d-flex justify-content-between align-item-center px-5">
+                    <div class="form-floating my-3 ">
+                        <input type="email" class="form-control border-0" id="floating" placeholder="gvfetger">
+                        <label for="floating"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                          </svg><input type="text" placeholder="Rechercher un mot clé" class="form-control">
+                          </svg> Recherche mot clé</label>
                     </div>
-                    <div class="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                   
+                    <div class="form-floating select my-3">
+                        <label for="select" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
                             <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-                          </svg>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected><i class="bi bi-house-door"></i>Type de bien</option>
+                          </svg> Type de bien</label>
+                        <select class="form-select border-0" aria-label="Default select example" id="select" >
+                            <option selected></option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div  class="d-flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <div class="form-floating my-3">
+                        <input type="email" class="form-control border-0" id="floating" placeholder="frefgrze" >
+                        <label for="floating"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                             <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
                             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>
-                        <input type="text" placeholder="localisation">
+                          </svg> Localisation </label>
                     </div>
-                    <div >
-                        <button class="form-control btn bnt-warning" type="submit">Trouver un bien</button>
+                    <div>
+                        <button class="btn btn-warning p-3  my-3" type="submit">Trouver un bien</button>
                     </div>
                 </div>
             </form>
+
+            <div id="partes" class="mt-5">
+                <div id="title">
+                    <h1 class="titreh1"><div id="bbleu"></div>Nos partenaires
+                        
+                    </h1>
+                    <p class="mt-3" id="des">Nous sommes agréés avec les plus grandes agences immobilières de la région</p>
+                </div>
+            </div>
+            <!--Section sur les partenaires-->
+            <div class="d-flex align-items-end mt-5 mb-5">
+                <div class="photos">
+                    <img src="./assets/image/Hero Pict Group.png" alt="" class="me-2">
+                </div>
+                <div id="para" class="d-flex flex-column justify-content-between ms-3">
+                       <p id="story" class="mb-0" >Ma story</p>
+                       <img id="line" src="assets/image/Line separator.png" alt="">
+                       <h2 class="mb-2">Le moyen le plus simple et le plus rapide pour trouver</h2>
+                       <p class="mb-4">Créée en 2012, l’agence MaxImmo est maintenant reconnue dans toute la région Grande-Aquitaine et régions voisines.</p>
+                        <div class="d-flex mt-5">
+                            <div class="qual d-flex me-5">
+                                <img class="icon me-2" src="assets/image/Icon Group fleur.png" alt="">
+                                <p class="mb-0"><span>Fiabilité</span> <br> Un sens du service inégalé</p>
+                            </div>
+                            <div class="qual d-flex justify-content-between">
+                                <img class="icon me-2" src="assets/image/Icon Group card.png" alt="">
+                                <p class="mb-0"><span>Efficacité</span> <br> La qualité au Rendez-vous</p>
+                            </div>
+                        </div> 
+                </div>
+            </div>
+            <!--Les service-->
+            <div id="service" class="p-5">
+                <div class="text-center mb-5">
+                    <h2>Tous les services <br> que nous proposons</h2>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <div class="card text-center justify-content-around p-3">
+                        <img class="w-25 mx-auto" src="assets/image/Rectangle Icon.png" alt="icon">
+                        <h5>Acheter</h5>
+                        <p>Trouvez le bien qui vous correspond, nous vous conseillons et proposons des produits respectant vos demandes et conditions.</p>
+                        <button type="button" class="btn btn-outline-warning">Trouver un bien</button>
+
+                    </div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+            </div>
         </section>
     </div>
 
@@ -94,6 +149,6 @@
 
 
 
-   <script src="./node_modules/bootstrap/js/bootstrap.bundle.js"></script>
+  
 </body>
 </html>
