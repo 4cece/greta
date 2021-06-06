@@ -1,14 +1,17 @@
+#photo{
+    position: relative;
+}
 
 #titre {
     position: absolute;
-    top: 20%;
-    left: 7%;
+    top: 7%;
+    left: 3%;
 }
 
 #bulle{
     position: absolute;
-    top: 9%;
-    right: 10%;
+    top: 4%;
+    right: 5%;
 }
 select, input{
     width: 200px !important;
@@ -42,9 +45,15 @@ select, input{
     width: 80px;
 }
  .card{
-     width: 25%;
+     width: 315px;
+     height: 400px;
+     button{
+         width: 66% !important;
+     }
  }
-   
+.input-group{
+    width: 450px !important;
+}
     
 
     

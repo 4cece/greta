@@ -56,3 +56,18 @@ font-size: 18px;}
       }
   }
 }
+
+.estimation{
+  background-color: $blue;
+  height: 262px;
+  div{
+    h2{
+      @include H;
+      color: white;
+    }
+    p{
+      @include navItem;
+      color: white;
+    }
+  }
+}

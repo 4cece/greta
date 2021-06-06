@@ -47,9 +47,9 @@
             </nav>
             <!--Photo du header-->
         </header>
-        <section class="container px-0">
+        <section class="container px-0" id="photo" >
             <img class="photoSection rounded" src="./assets/image/photo.png" alt="fond">
-            <div class="row">
+            <div class="row" >
                 <div class="col-6" id="titre">
                     <h1 id="tphoto">Trouver le bien <br><span>qui vous correspond</span> </h1>
                     <p id="stitre">A vos côtés depuis 2012, je vous accompagne dans <br> vos projets immobiliers.</p>
@@ -129,17 +129,47 @@
                 </div>
                 <div class="d-flex justify-content-around">
                     <div class="card text-center justify-content-around p-3">
-                        <img class="w-25 mx-auto" src="assets/image/Rectangle Icon.png" alt="icon">
+                        <img class="mx-auto" src="assets/image/Rectangle Icon.png" alt="icon">
                         <h5>Acheter</h5>
                         <p>Trouvez le bien qui vous correspond, nous vous conseillons et proposons des produits respectant vos demandes et conditions.</p>
-                        <button type="button" class="btn btn-outline-warning">Trouver un bien</button>
+                        <button type="button" class="btn btn-outline-warning w-50 mx-auto p-2"><strong>Trouver un bien</strong></button>
 
                     </div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+                    <div class="card text-center justify-content-around p-3" id="cardp">
+                        <img class="mx-auto" src="assets/image/Rectangle Icon Vendre.png" alt="icon">
+                        <h5>Vendre</h5>
+                        <p>Mettez en ligne votre appartement ou votre maison, nous nous occupons de toruver les acheteurs potentiels et gérons les visites.</p>
+                        <button type="button" class="btn btn-outline-warning w-50 mx-auto p-2"> Vendez rapidement</button>
+
+                    </div>
+                    <div class="card text-center justify-content-around p-3">
+                        <img class="mx-auto" src="assets/image/Rectangle Icon louer.png" alt="icon">
+                        <h5>Louer</h5>
+                        <p>Mettez sur le marché de la location votre bien, nous avons des centaines de ménages demandant des locations immobilières chaque mois.</p>
+                        <button type="button" class="btn btn-outline-warning w-50 mx-auto p-2 ">Rechercher</button>
+
+                    </div>
+                </div>
+            </div>
+            <!--Avis clients-->
+            <div>
+                <div class="estimation mx-5 my-4 d-flex justify-content-around align-items-center">
+                    <div>
+                        <h2>Estimez votre bien immobilier</h2>
+                        <p>Commencez par entrer votre adresse email</p>
+                    </div>
+                    <form action="">
+                        <div class="input-group mb-3 p-2">
+                            <input type="text" class="form-control" placeholder="Votre adresse éléctronique" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">Estimation</span>
+                          </div>
+                    </form>
                 </div>
             </div>
         </section>
+        <footer>
+            
+        </footer>
     </div>
 
 
