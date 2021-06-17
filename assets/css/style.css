@@ -23,7 +23,7 @@ label {
 svg {
   color: #282F65 !important; }
 
-select, input {
+select, #inputEmail {
   background-color: #ebebeb !important; }
 
 #story {
@@ -43,6 +43,12 @@ select, input {
 #basic-addon2 {
   color: white !important;
   background-color: #FFA800 !important; }
+
+#inputTel {
+  background-color: white; }
+
+.btn-warning {
+  color: white !important; }
 
 nav .navbar-brand {
   font-size: 27px; }
@@ -8466,7 +8472,7 @@ textarea.form-control-lg {
   top: 4%;
   right: 5%; }
 
-select, input {
+select, #inputEmail {
   width: 200px !important; }
 
 #box {
@@ -8503,6 +8509,9 @@ select, input {
 
 .input-group {
   width: 450px !important; }
+
+#inputTel::placeholder {
+  text-align: center; }
 
 .navbar-brand {
   font-family: 'Lato', sans-serif; }

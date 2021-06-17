@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="./node_modules/bootstrap/js/bootstrap.bundle.js"></script>
     <title>Document</title>
 </head>
 
 <body>  
+
     <div class="container">
         <header>
             <!--Navbar-->
@@ -40,11 +40,43 @@
                         </li>
                         </ul>
                         <form class="d-flex">
-                        <button class="btn btn-outline-warning" type="submit">Se faire rappeller</button>
-                        </form>
+                        <button class="btn btn-outline-warning" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Se faire rappeller</button>
+
+                    </form>
                     </div>
                 </div>
             </nav>
+            <!--Modal-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Nous vous rappelons</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <p>Laissez-nous simplement votre numéro ci-dessous</p>
+                      <p> <strong>Votre numéro de téléphone</strong> </p>
+                      <form id="form1">
+                          <input id="inputTel" min="10" name="telephone" type="number" placeholder="01.02.03.04.05" class="form-control">
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-warning" id="btnTel">Envoyer</button>
+                    </div>
+                      </form>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
             <!--Photo du header-->
         </header>
         <section class="container px-0" id="photo" >
@@ -160,7 +192,7 @@
                     </div>
                     <form action="">
                         <div class="input-group mb-3 p-2">
-                            <input type="text" class="form-control" placeholder="Votre adresse éléctronique" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input  id="inputEmail" type="text" class="form-control" placeholder="Votre adresse éléctronique" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <span class="input-group-text" id="basic-addon2">Estimation</span>
                           </div>
                     </form>
@@ -179,6 +211,7 @@
 
 
 
-  
+    <script src="./assets/bootstrap.min.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>

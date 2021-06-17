@@ -45,7 +45,7 @@ label{
 svg{
     color: $blue !important;
 }
-select, input{
+select, #inputEmail{
     background-color: #ebebeb !important;}
 #story{
     color: #79dcf2;
@@ -66,3 +66,10 @@ select, input{
     color: white !important;
     background-color: $yellow !important;
     }
+#inputTel{
+    background-color: white;
+}
+
+.btn-warning{
+    color: white !important;
+}
