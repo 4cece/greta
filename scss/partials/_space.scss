@@ -51,14 +51,26 @@ select, #inputEmail{
          width: 66% !important;
      }
  }
-.input-group{
+#email{
     width: 450px !important;
 }
 
 #inputTel::placeholder{
     text-align: center;
  }
-    
+   
+#active{
+    position: relative;
+        #darkb{
+            position: absolute;
+            width: 12px;
+            height: 5px;
+            background-color: $blue;
+            left: 29px;
+            border-radius: 14px;
+
+    }
+}
 
     
 

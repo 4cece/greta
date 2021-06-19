@@ -73,3 +73,29 @@ select, #inputEmail{
 .btn-warning{
     color: white !important;
 }
+
+footer {
+    div {
+        background-color: #ededed;
+        div {
+            p{
+                color: #626262;
+                font-family: 'Nunito Sans', sans-serif;
+            }
+            
+            h2{
+                color: $blue;
+               
+            }
+            h3{
+                color: black;
+                font-family: 'Khula', sans-serif;
+            }
+        }
+        } 
+   
+}
+#copyright{
+    background-color: $blue;   
+    color: white;
+}

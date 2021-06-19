@@ -50,6 +50,21 @@ select, #inputEmail {
 .btn-warning {
   color: white !important; }
 
+footer div {
+  background-color: #ededed; }
+  footer div div p {
+    color: #626262;
+    font-family: 'Nunito Sans', sans-serif; }
+  footer div div h2, footer div div .h2 {
+    color: #282F65; }
+  footer div div h3, footer div div .h3 {
+    color: black;
+    font-family: 'Khula', sans-serif; }
+
+#copyright {
+  background-color: #282F65;
+  color: white; }
+
 nav .navbar-brand {
   font-size: 27px; }
 nav .nav-item {
@@ -8507,11 +8522,21 @@ select, #inputEmail {
   .card button {
     width: 66% !important; }
 
-.input-group {
+#email {
   width: 450px !important; }
 
 #inputTel::placeholder {
   text-align: center; }
+
+#active {
+  position: relative; }
+  #active #darkb {
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background-color: #282F65;
+    left: 29px;
+    border-radius: 14px; }
 
 .navbar-brand {
   font-family: 'Lato', sans-serif; }

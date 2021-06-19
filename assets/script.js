@@ -3,7 +3,7 @@ document.getElementById("btnTel").addEventListener("click", function(){
     let formData = new FormData(form);
 
     fetch("traitement.php", { method: "POST", body: formData })
-    .then(response => response.text())
+    .then(response => response.json())
     .then(data => {
         console.log(data);
     }); 
